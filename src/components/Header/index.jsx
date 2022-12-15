@@ -19,11 +19,11 @@ const Header = ({autenticado}) => {
                 <Menu>Live Code</Menu>
                 <Menu>Global</Menu>
               </>
-            ) : null}
+            ) : null} 
           </Row>
           <Row>
               {autenticado ? (
-                <UserPicture src="https://avatars.githubusercontent.com/u/45184516?v=4"/>
+                <UserPicture src="https://avatars.githubusercontent.com/u/95251132?v=4"/>
               ) : (
               <>
                 <MenuRight href="/">Home</MenuRight>
